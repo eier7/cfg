@@ -74,3 +74,12 @@ endif
 " http://www.linuxpowertop.org/known.php
 let &guicursor = &guicursor . ",a:blinkon0"
 highlight LineNr ctermfg=grey ctermbg=black guibg=black guifg=grey
+
+
+"GUI
+set guioptions-=m
+set guioptions-=T
+set guioptions-=r
+set guioptions-=L
+set guifont=Inconsolata\ 18
+
