@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo pacman -Syy
-sudo pacman -S base-devel fakeroot wget vim--noconfirm
+sudo pacman -S base-devel fakeroot wget vim --noconfirm
 
 wget https://aur.archlinux.org/packages/pa/package-query-git/package-query-git.tar.gz
 tar -xvf package-query-git.tar.gz
